@@ -1,3 +1,4 @@
+#counting vowels in a word 
 def count_vowels(text):
     vowels = "aeiouAEIOU"   
     count = 0
@@ -11,3 +12,4 @@ def count_vowels(text):
 
 word = input("Enter a word: ")
 print("Number of vowels:", count_vowels(word))
+
